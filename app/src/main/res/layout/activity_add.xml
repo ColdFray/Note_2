@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<RelativeLayout android:background="@android:color/holo_blue_bright" android:layout_height="50dp" android:layout_width="match_parent">
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="@android:color/white" android:text="添加" android:gravity="center" android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_margin="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@android:color/black" android:text="标题："/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/info_title1"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_margin="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@android:color/black" android:text="内容："/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/info_text1"/>
+
+</LinearLayout>
+
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="添加" android:id="@+id/add"/>
+
+</LinearLayout>
